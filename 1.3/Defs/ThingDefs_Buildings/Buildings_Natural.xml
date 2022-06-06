@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableBlueJade</defName>
+    <label>Blue Jade</label>
+    <description>Rock containing bits of blue jade.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(0,36,85)</color>
+      <colorTwo>(44,96,165)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>BlueJade</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.065</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~8</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>MineableRedJade</defName>
+    <label>Red Jade</label>
+    <description>Rock containing bits of red jade.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(105,0,0)</color>
+      <colorTwo>(185,35,31)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>RedJade</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.065</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~8</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>MineableWhiteJade</defName>
+    <label>White Jade</label>
+    <description>Rock containing bits of white jade.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(100,100,100)</color>
+      <colorTwo>(255,255,255)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>WhiteJade</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.065</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~8</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>MineableBlackJade</defName>
+    <label>Black Jade</label>
+    <description>Rock containing bits of black jade.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(12,12,12)</color>
+      <colorTwo>(32,32,32)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>BlackJade</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.065</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~8</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>MineableYellowJade</defName>
+    <label>Yellow Jade</label>
+    <description>Rock containing bits of yellow jade.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(150,114,0)</color>
+      <colorTwo>(230,194,44)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>YellowJade</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.065</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~4</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+</Defs>
