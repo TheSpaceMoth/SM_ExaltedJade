@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+  <operations>
+    <li Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Jade"]/label</xpath>
+    <value>
+		<label>Green Jade</label>
+    </value>
+    </li>
+    <li Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Jade"]/description</xpath>
+    <value>
+		<description>A hard, green stone. Because of its beauty and rarity, jade is often used for ornaments and decorations. Its hardness and density also makes it a good material for blunt weapons. Green Jade is associated with the Wood Aspect.</description>
+    </value>
+    </li>
+	
+    <li Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="MineableJade"]/label</xpath>
+    <value>
+		<label>Green Jade</label>
+    </value>
+    </li>
+    <li Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="MineableJade"]/description</xpath>
+    <value>
+		<description>Rock containing bits of green jade.</description>
+    </value>
+    </li>
+	
+	
+    <li Class="PatchOperationAdd">
+    <xpath>/Defs/ThingSetMakerDef[defName="TribeRaidLootMaker"]/root/fixedParams/filter/thingDefs</xpath>
+    <value>
+		<li>BlueJade</li>
+		<li>RedJade</li>
+		<li>BlackJade</li>
+		<li>WhiteJade</li>
+    </value>
+    </li>
+	
+    <li Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[thingClass="Building_Art"]/recipeMaker/defaultIngredientFilter/disallowedThingDefs</xpath>
+    <value>
+		<li>BlueJade</li>
+		<li>RedJade</li>
+		<li>BlackJade</li>
+		<li>WhiteJade</li>
+		<li>YellowJade</li>
+    </value>
+    </li>
+	
+    <li Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="ApparelMakeableBase"]/recipeMaker/defaultIngredientFilter/disallowedThingDefs</xpath>
+    <value>
+		<li>BlueJade</li>
+		<li>RedJade</li>
+		<li>BlackJade</li>
+		<li>WhiteJade</li>
+		<li>YellowJade</li>
+    </value>
+    </li>
+	
+    <li Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="ArmorSmithableBase"]/recipeMaker/defaultIngredientFilter/disallowedThingDefs</xpath>
+    <value>
+		<li>BlueJade</li>
+		<li>RedJade</li>
+		<li>BlackJade</li>
+		<li>WhiteJade</li>
+		<li>YellowJade</li>
+    </value>
+    </li>
+    <!-- etc -->
+  </operations>
+</Operation>
+
+</Patch>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Textures Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "BlueJade"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Things/Item/Resource/VTE_BlueJade</texPath>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "RedJade"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Things/Item/Resource/VTE_RedJade</texPath>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "BlackJade"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Things/Item/Resource/VTE_BlackJade</texPath>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "WhiteJade"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Things/Item/Resource/VTE_WhiteJade</texPath>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "YellowJade"]/graphicData/texPath</xpath>
+					<value>
+						<texPath>Things/Item/Resource/VTE_YellowJade</texPath>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
